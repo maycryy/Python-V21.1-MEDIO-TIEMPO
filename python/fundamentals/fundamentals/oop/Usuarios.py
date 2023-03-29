@@ -7,7 +7,7 @@ class Usuario:
         self.balance_mount += amount
     def hacer_retiro(self, other_user):
         self.balance_mount -= other_user
-    def hacer_transferencia(self, amount):
+    def hacer_transferencia(self, other_user, amount):
         self.balance_mount += amount
         self.balance_mount -= amount
         self.imprime()
@@ -38,7 +38,6 @@ happy.hacer_deposito(300)
 happy.hacer_deposito(300)
 happy.hacer_retiro(900)
 
-pirata.hacer_transferencia(1000) 
 
 
 print(f" user:{happy.name} , balance:{happy.balance_mount}")
