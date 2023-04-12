@@ -13,4 +13,4 @@ class MathDojo:
         return self
 md = MathDojo()
 resultado = md.sumar(2).sumar(3, 1).restar(1).resultado
-print(resultado)  # Output: 8
+print(resultado) 
