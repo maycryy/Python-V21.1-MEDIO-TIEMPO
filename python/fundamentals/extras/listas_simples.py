@@ -50,6 +50,5 @@ class SLNode:
         self.next = None
 
 sll = SList()
-#sll.add_to_front("B").add_to_front("A").add_to_back("C").remove_from_front().print_values()
 sll2 = SList()
 sll2.add_to_back("2").add_to_back("Y").remove_from_back().remove_from_back().print_values()
