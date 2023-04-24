@@ -12,4 +12,4 @@ class Tienda:
     def imprimir_productos(self):
         for X in self.producto:
             X.print_info()
-        return self
+        return self 
